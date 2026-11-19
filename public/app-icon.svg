@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="vec-app-bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111626" />
+      <stop offset="100%" stop-color="#07090f" />
+    </linearGradient>
+    <linearGradient id="vec-app-primary" x1="28" y1="30" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#2f7cf6" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="vec-app-inner" x1="42" y1="38" x2="86" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#vec-app-bg)" stroke="url(#vec-app-primary)" stroke-opacity="0.45" stroke-width="3" />
+  <rect x="12" y="12" width="104" height="104" rx="22" stroke="#22d3ee" stroke-opacity="0.14" stroke-width="1" />
+  <circle cx="64" cy="64" r="42" stroke="url(#vec-app-primary)" stroke-opacity="0.18" stroke-width="1.2" stroke-dasharray="4 4" />
+  <line x1="30" y1="34" x2="84" y2="42" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="2.5" />
+  <line x1="98" y1="34" x2="44" y2="42" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="2.5" />
+  <line x1="64" y1="74" x2="64" y2="98" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="2.5" />
+  <path d="M30 34L64 98L98 34" stroke="url(#vec-app-primary)" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M44 42L64 74L84 42" stroke="url(#vec-app-inner)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="30" cy="34" r="7.5" fill="#22d3ee" />
+  <circle cx="98" cy="34" r="7.5" fill="#22d3ee" />
+  <circle cx="44" cy="42" r="5" fill="#8b5cf6" />
+  <circle cx="84" cy="42" r="5" fill="#8b5cf6" />
+  <circle cx="64" cy="74" r="5.5" fill="#f8fafc" />
+  <circle cx="64" cy="98" r="8.5" fill="url(#vec-app-primary)" />
+  <circle cx="64" cy="98" r="3.5" fill="#f8fafc" />
+</svg>

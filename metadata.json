@@ -1,0 +1,8 @@
+{
+  "name": "VectorIA Studio",
+  "description": "Plataforma académica y técnica de Álgebra Lineal, Redes Neuronales, Clasificación Alfanumérica, Topología Neuronal y Asistente Híbrido Omni Bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
